@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/SA_SlopeDeflectionMethod/',   // ← 加這行
   plugins: [react()],
 })
